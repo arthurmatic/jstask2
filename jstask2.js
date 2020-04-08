@@ -34,8 +34,8 @@ let interestCalculator = (dodo) => {
         dataItem.interest = (dataItem.principal * dataItem.rate * dataItem.time)/100;
         interestData.push(dataItem);
     }
-    
+    console.log(interestData);
+    return interestData;
 }
 
 interestCalculator(data); 
-interestData; 
